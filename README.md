@@ -66,7 +66,20 @@
  background image/video covers full page and responsive 
 
 
-/* Counter */
+
+/*********************** Counter ***************************/
 
 Create a color effect that generates darker green with higher opacity as the number increases and lighter color with lower opacity as the red decreases 
+
+Find a project to apply this to...
+
+
+/* Study References */
+
+1.  forEach
+2.  .contains
+3.  .include
+4.  addEventListener
+5.  conditional if statements
+6.  practice how to Loop over arays and objects.
 
