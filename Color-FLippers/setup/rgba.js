@@ -1,18 +1,15 @@
-// target the button
 const btn = document.getElementById("btn");
-// target the color text element
 const color = document.querySelector(".color");
 
 // function colorGenerator() {
 //     return Math.floor(Math.random() * 255);
 // }
 
-// create and event listener for the button
-btn.addEventListener("click", function () { // Higher order function
-    // let colorGenerator = Math.floor(Math.random() * 255);
+btn.addEventListener("click", function () { // 
 
-    let rgba = `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.random()}`
+    let rgba = `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.random().toFixed(1)})`
     document.body.style.backgroundColor = rgba;
+    color.innerHTML = rgba;
 
 });
 
