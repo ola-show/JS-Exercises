@@ -4,6 +4,7 @@
 
 
 
+/* Color Flipper */
 
  Topics Covered
 
@@ -63,3 +64,9 @@
 
  HINT:
  background image/video covers full page and responsive 
+
+
+/* Counter */
+
+Create a color effect that generates darker green with higher opacity as the number increases and lighter color with lower opacity as the red decreases 
+
